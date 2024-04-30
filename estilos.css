@@ -1,0 +1,68 @@
+/* General Styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f0f0; /* Fondo gris claro para contraste */
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Centrar texto en todo el cuerpo */
+}
+.header {
+    display: flex; /* Usamos flex para alinear elementos */
+    align-items: center; /* Alineamos verticalmente */
+    justify-content: center; /* Centramos horizontalmente */
+    background-color: #00aaff; /* Aqua */
+    padding: 20px;
+    text-align: center;
+}
+
+.profile-img {
+    width: 100px; /* Tamaño de la imagen */
+    height: 100px; /* Tamaño de la imagen */
+    border-radius: 50%; /* Imagen redonda */
+    margin-right: 20px; /* Espacio entre la imagen y el texto */
+}
+
+.header-info {
+    flex: 1; /* Permite que el texto ocupe el espacio restante */
+    text-align: left; /* Alineamos el texto a la izquierda */
+    color: white; /* Texto blanco para contraste */
+}
+
+.header {
+    background-color: #5e95aa; /* Aqua */
+    color: white; /* Texto blanco para contraste */
+    padding: 20px;
+    text-align: center; /* Asegurar centrado en el encabezado */
+}
+
+/* Estilos para las secciones en cuadros */
+.section-box {
+    background-color: #5e95aa;/* Fondo gris para secciones */
+    border: 1px solid #161616; /* Borde suave */
+    padding: 20px;
+    margin: 10px auto; /* Centramos la sección con margen auto */
+    border-radius: 10px; /* Bordes redondeados */
+    max-width: 600px; /* Ancho máximo para mejor legibilidad */
+}
+
+.aqua-bg {
+    background-color: #839da0; /* Fondo aqua claro para secciones especiales */
+}
+
+h2 {
+    color:  white; /* Títulos en aqua para destacar */
+}
+
+ul {
+    list-style-type: square; /* Uso de lista de puntos cuadrados */
+    padding-left: 20px;
+    text-align: left; /* Texto alineado a la izquierda dentro del cuadro */
+}
+
+.footer {
+    background-color: #478aab; /* Aqua */
+    color: white; /* Texto blanco para contraste */
+    padding: 15px;
+    border-top: 1px solid #ccc; /* Línea superior para separar el footer */
+    text-align: center; /* Asegurar centrado en el footer */
+}
